@@ -1,0 +1,61 @@
+/* Global variables */
+:root {
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header */
+
+.header {
+    height: 5rem;
+    box-shadow: 20px 1px #808080 ;
+}
+
+.header-content {
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 30rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    width: 20rem;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+}
+
+li:hover {
+    border-bottom: solid 1px #000;
+}
+
+/* Body */
+
+body {
+    margin: 0;
+    height: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
