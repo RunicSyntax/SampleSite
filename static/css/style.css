@@ -168,6 +168,20 @@ iframe {
     border: none;
 }
 
+/* About section image styling */
+
+.about-section-images {
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.about-section-logo {
+    display: inline-block;
+    overflow: hidden;
+    height: 80px;
+    width: 80px;
+}
+
 /* Footer */
 
 .footer {
