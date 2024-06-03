@@ -44,11 +44,12 @@
 }
 
 a {
+    display: inline-block;
+    height: 3rem;
     color: #fff;
     text-decoration: none;
     mix-blend-mode: difference;
     font-family: "Sans Serif Collection", sans-serif;
-    padding-bottom: 1px;
 }
 
 a:hover {
@@ -97,7 +98,7 @@ section:nth-child(odd) {
     margin: 0;
 }
 
-.front-title, .front-undertitle {
+.front-title, .front-under-title {
     display: flex;
     height: 4rem;
     margin-top: 14rem;
@@ -108,13 +109,13 @@ section:nth-child(odd) {
     position: relative;
 }
 
-.front-undertitle {
+.front-under-title {
     height: 3rem;
     margin-top: 0;
     font-size: 20px;
 }
 
-.front-title::before, .front-undertitle::before {
+.front-title::before, .front-under-title::before {
     content: attr(data-text);
     position: absolute;
     transform: translateX(-100%);
@@ -142,6 +143,7 @@ section:nth-child(odd) {
 }
 
 h1 {
+    height: 6rem;
     font-size: 48px;
     border-bottom: 1px solid #000;
     font-family: "Sans Serif Collection", sans-serif;
