@@ -39,6 +39,7 @@
     height: 22px;
     display: flex;
     justify-content: space-between;
+    padding: 0;
 }
 
 a {
@@ -87,6 +88,12 @@ section:nth-child(odd) {
 
 .home-section {
     background: #000;
+}
+
+.front-title {
+    font-size: 60px;
+    padding-top: 8rem;
+    text-align: center;
 }
 
 .section-content {
