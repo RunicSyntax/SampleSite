@@ -29,7 +29,7 @@
 }
 
 .header-content li {
-    font-size: 20px;
+    font-size: 24px;
     height: 1.5rem;
 }
 
@@ -103,12 +103,21 @@ section:nth-child(odd) {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 48px;
     border-bottom: 1px solid #000;
 }
 
 .portfolio-section h1 {
     border-bottom: 1px solid #fff;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 28px;
 }
 
 iframe {
