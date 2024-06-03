@@ -73,9 +73,11 @@ body {
 section {
     display: flex;
     justify-content: center;
-    height: 50rem;
+    height: auto;
+    min-height: 50rem;
     width: 100%;
     background: #fff;
+    padding-bottom: 2rem;
 }
 
 section:nth-child(odd) {
@@ -100,6 +102,10 @@ h1 {
 
 .portfolio-section h1 {
     border-bottom: 1px solid #fff;
+}
+
+iframe {
+    border: none;
 }
 
 /* Footer */
