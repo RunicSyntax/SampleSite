@@ -28,6 +28,11 @@
     justify-content: center;
 }
 
+.header-content li {
+    font-size: 20px;
+    height: 1.5rem;
+}
+
 .nav-links {
     list-style: none;
     width: 20rem;
@@ -73,7 +78,7 @@ section {
     background: #fff;
 }
 
-section:nth-child(even) {
+section:nth-child(odd) {
     color: #fff;
     background: #000;
 }
@@ -93,7 +98,7 @@ h1 {
     border-bottom: 1px solid #000;
 }
 
-.portfolio-section h1{
+.portfolio-section h1 {
     border-bottom: 1px solid #fff;
 }
 

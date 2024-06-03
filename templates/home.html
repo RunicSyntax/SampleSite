@@ -1,6 +1,16 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
+<section id="home" class="home-section">
+    <div class="section-content">
+        <div class="container header">
+            {% include 'header.html' %}
+        </div>
+        <p class="quote">Make everything as simple as possible, but not simpler</p>
+        <p class="author">- Albert Einstein</p>
+    </div>
+</section>
 <section id="about" class="about-section">
     <div class="section-content">
         <h1>about</h1>
@@ -15,7 +25,15 @@
 <section id="portfolio" class="portfolio-section">
     <div class="section-content">
         <h1>portfolio</h1>
-        <p>I'm a software engineer in the making</p>
+        <h2>JobHub</h2>
+        <p>While I haven't done a lot of larger scale projects, a recent one I worked on revolved around designing a website. This website was for a fictional job offering company no dissimilar from <a>Alfreð</a> or <a>LinkedIn</a>. 
+            This project was a group project where I oversaw, designed and coded most of the visuals for the website, as well as implemented a lot of the Django forms used in the project. </p>
+        <h2>Tech stack</h2>
+        <p>This project mainly involved usage of the Django Framework, as well as HTML, CSS and some JS.</p>
+        <h2>Tutorial Video</h2>
+        <video width="480" height="280" controls>
+            <source src="">
+        </video>
     </div>
 </section>
 <section id="contact" class="contact-section">
