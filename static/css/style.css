@@ -3,6 +3,10 @@
 
 }
 
+*{
+    scroll-behavior: smooth !important;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -58,4 +62,35 @@ body {
     flex-direction: column;
 }
 
+/* Sections */
+
+section {
+    display: flex;
+    justify-content: center;
+    height: 50rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+section:nth-child(2) {
+    color: #fff;
+    mix-blend-mode: difference;
+    background-color: #000;
+}
+
+.section-content {
+    width: 50rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+
+h1 {
+    font-size: 40px;
+}
+
 /* Footer */
+
+.footer {
+    height: 10rem;
+    background-color: #000;
+}
