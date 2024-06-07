@@ -190,9 +190,20 @@ iframe {
     justify-content: space-between;
 }
 
+.about-section-images a {
+    border-bottom: none;
+    mix-blend-mode: normal;
+}
+
+#ru-logo:hover {
+    opacity: 70%;
+}
+
 #about-section-school-logo {
     flex-flow: row-reverse;
 }
+
+
 
 .about-section-logo {
     display: inline-block;
