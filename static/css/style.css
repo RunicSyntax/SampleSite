@@ -37,7 +37,7 @@
 .nav-links {
     list-style: none;
     width: 20rem;
-    height: 22px;
+    height: 32px;
     display: flex;
     justify-content: space-between;
     padding: 0;
@@ -255,6 +255,8 @@ iframe {
 .footer-content {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-content p {
